@@ -1,6 +1,6 @@
 import { act, fireEvent, render, screen } from '@testing-library/react';
-import { getTableValues } from '../test-utils';
-import SecondSample from './Sample';
+import SecondSample from './samples/Sample';
+import { getTableValues } from './test-utils';
 
 describe('AssetList should', () => {
     it('render asset list', async () => {
